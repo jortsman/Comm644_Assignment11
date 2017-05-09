@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div data-role="page" id="about">
+    <header data-role="header">
+      <h1>Vecta Corp.</h1>
+      <nav data-role="navbar" data-iconpos="bottom">
+        <ul>
+          <li><a href="#about" class="ui-btn-active ui-state-persist ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#solutions" class="ui-btn ui-icon-bullets ui-btn-icon-top">Solutions</a></li>
+          <li><a href="#contact" class="ui-btn ui-icon-phone ui-btn-icon-top">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section data-role="content">
+      <h1>Welcome</h1>
+      <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most
+        important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable
+        and positive user experience.</p>
+      <h2>Client Testimonials</h2>
+      <div data-role="collapsible">
+        <h4>Iona Form</h4>
+        <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and
+          exposure exponentially.</p>
+        <p>Iona Ford<br> President
+          <br> Chevy Dealers Association</p>
+      </div>
+      <div data-role="collapsible">
+        <h4>Robin Banks</h4>
+        <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and
+          exposure exponentially.</p>
+        <p>Iona Ford<br> President
+          <br> Chevy Dealers Association</p>
+      </div>
+    </section>
+    <footer data-role="footer" data-position="fixed">
+      <h4>Copyright &copy; 2017 Vecta Corporation</h4>
+    </footer>
+  </div>
+  <!-- About -->
+  <div data-role="page" id="solutions">
+    <header data-role="header">
+      <h1>Vecta Corp.</h1>
+      <nav data-role="navbar" data-iconpos="bottom">
+        <ul>
+          <li><a href="#about" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#solutions" class="ui-btn-active ui-state-persist ui-icon-bullets ui-btn-icon-top">Solutions</a></li>
+          <li><a href="#contact" class="ui-btn ui-icon-phone ui-btn-icon-top">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section data-role="content">
+      <p>Our Solutions</p>
+      <ul data-role="listview" data-inset="true">
+        <li><a href="#vprospect" data-rel="popup" data-transition="pop"><h2>vProspect 2.0</h2><p>Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p></a></li>
+        <li><a href="#vconvert" data-rel="popup" data-transition="pop"><h2>vConvert 2.0</h2><p>Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p></a></li>
+        <li><a href="#vretain" data-rel="popup" data-transition="pop"><h2>vRetain 1.0</h2><p>Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p></a></li>
+      </ul>
+      <!-- vProspect -->
+      <div data-role="popup" id="vprospect">
+        <div data-role="header" data-theme="a">
+          <h1>vProspect 2.0</h1>
+        </div>
+        <div role="main" class="ui-content">
+          <h3 class="ui-title">Are you sure you want to delete this page?</h3>
+          <p>This action cannot be undone.</p>
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Cancel</a>
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Delete</a>
+        </div>
+      </div>
+      <!-- vConvert -->
+      <div data-role="popup" id="vconvert">
+        <div data-role="header" data-theme="a">
+          <h1>Delete Page?</h1>
+        </div>
+        <div role="main" class="ui-content">
+          <h3 class="ui-title">Are you sure you want to delete this page?</h3>
+          <p>This action cannot be undone.</p>
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Cancel</a>
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Delete</a>
+        </div>
+      </div>
+      <!-- vRetain -->
+      <div data-role="popup" id="vRetain">
+        <div data-role="header" data-theme="a">
+          <h1>Delete Page?</h1>
+        </div>
+        <div role="main" class="ui-content">
+          <h3 class="ui-title">Are you sure you want to delete this page?</h3>
+          <p>This action cannot be undone.</p>
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Cancel</a>
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Delete</a>
+        </div>
+      </div>
+    </section>
+    <footer data-role="footer" data-position="fixed">
+      <h4>Copyright &copy; 2017 Vecta Corporation</h4>
+    </footer>
+  </div>
+  <!-- Contact -->
+  <div data-role="page" id="contact">
+    <header data-role="header">
+      <h1>Vecta Corp.</h1>
+      <nav data-role="navbar" data-iconpos="bottom">
+        <ul>
+          <li><a href="#about" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#solutions" class="ui-btn ui-icon-bullets ui-btn-icon-top">Solutions</a></li>
+          <li><a href="#contact" class="ui-btn-active ui-state-persist ui-icon-phone ui-btn-icon-top">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section data-role="content">
+      <p>About Vecta Corp.</p>
+    </section>
+    <footer data-role="footer" data-position="fixed">
+      <h4>Copyright &copy; 2017 Vecta Corporation</h4>
+    </footer>
+  </div>
+</body>
+
+</html>
